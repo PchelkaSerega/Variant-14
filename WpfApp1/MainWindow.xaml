@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Четное число N" Height="450" Width="800" Background="Black">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="txtChislo" Grid.Column="1" Style="{StaticResource TextBoxStyle}"/>
+        <Button Content="Определить" x:Name="btnOpr" Grid.Row="1" Grid.Column="0" Style="{StaticResource ButtonStyle}" Click="btnOpr_Click"/>
+        <Label Content="" x:Name="lbResult" Grid.Row="2" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
+        <Button Content="Выход" x:Name="btnClose" Grid.Row="1" Grid.Column="2" Style="{StaticResource ButtonStyle}" Click="btnClose_Click"/>
+    </Grid>
+</Window>
