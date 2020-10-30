@@ -17,8 +17,8 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBox x:Name="txtChislo" Grid.Column="1" Style="{StaticResource TextBoxStyle}"/>
-        <Button Content="Определить" x:Name="btnOpr" Grid.Row="1" Grid.Column="0" Style="{StaticResource ButtonStyle}" Click="btnOpr_Click"/>
+        <Button Content="Определить" x:Name="btnOpr" Grid.Row="1" Grid.Column="0" Background="{StaticResource ResourceKey= Button}" Click="btnOpr_Click"/>
         <Label Content="" x:Name="lbResult" Grid.Row="2" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
-        <Button Content="Выход" x:Name="btnClose" Grid.Row="1" Grid.Column="2" Style="{StaticResource ButtonStyle}" Click="btnClose_Click"/>
+        <Button Content="Выход" x:Name="btnClose" Grid.Row="1" Grid.Column="2" Background="{StaticResource ResourceKey= Button}" Click="btnClose_Click"/>
     </Grid>
 </Window>

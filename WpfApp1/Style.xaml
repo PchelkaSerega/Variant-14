@@ -3,7 +3,7 @@
                     xmlns:local="clr-namespace:WpfApp1">
 
 
-    <Style x:Key="ButtonStyle" TargetType="Button">
+    <Style TargetType="Button">
         <Setter Property="Margin" Value="50,80"/>
         <Setter Property="Background" Value="Black"/>
         <Setter Property="Foreground" Value="White"/>
@@ -17,6 +17,7 @@
             </Trigger>
         </Style.Triggers>
     </Style>
+    <SolidColorBrush x:Key="Button" Color="Black"/>
 
     <Style x:Key="TextBoxStyle" TargetType="TextBox">
         <Setter Property="Margin" Value="0,80"/>
